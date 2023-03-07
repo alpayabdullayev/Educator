@@ -1,0 +1,16 @@
+.h2studying{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.pstudying{
+    font-size: 15px;
+    color: #888;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.h3studying{
+    font-size: 14px !important;
+    font-weight: 700;
+    color: #434343 !important;
+}

@@ -1,0 +1,70 @@
+.bgCoursesList{
+    background-image: url('https://res.cloudinary.com/ds7i6phph/image/upload/v1678017082/course-tittle-area_mvee5u.jpg');
+    height: 40vh !important;
+}
+
+.para{
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+.parastyle{
+    font-size: 16px;
+    
+}
+
+.ikonstyl{
+    font-size: 16px;
+}
+
+h3>a{
+    color: #434343 !important;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    
+}
+
+
+
+h3>a:hover {
+    color: #2d76b2 !important;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+
+.kart-image {
+    overflow: hidden;
+}
+
+ .kart-image img {
+    transition: all 1.1s ease;
+}
+
+ .kart-image:hover img {
+    transform: scale(1.1);
+}
+
+.titlecourseslist{
+    padding-top: 7.7rem;
+}
+
+.courseslisth1{
+    color: #fff;
+    font-size: 39px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.right-title{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.changepage{}

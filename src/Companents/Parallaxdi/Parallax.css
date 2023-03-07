@@ -1,0 +1,38 @@
+.image
+{
+    height: 50vh;
+    background-image: url('../../img//Parallax/parallaximg.jpg');
+    
+    
+}
+
+.para{
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+.h1stylee{
+    color: #fff;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+.iconss{
+    font-size: 42px;
+    color: #fff;
+}
+
+.h3stylee{
+    color: #fff;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+.parallax-content{
+    text-align: center;
+}
+
+
+
+

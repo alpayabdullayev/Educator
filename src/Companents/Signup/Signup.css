@@ -1,0 +1,46 @@
+.signup{
+    background-color: #f7f7f7;
+    flex-wrap: wrap;
+}
+
+.signimg1{
+    width: 54px;
+    height: 54px;
+}
+
+.h3sign{
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+.ikili2{
+    flex-wrap: wrap;
+}
+
+.iki2{
+    padding-left: 20px;
+}
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		transform:         translateY(0)
+	}
+	40% {
+		transform:         translateY(-15px)
+	}
+	60% {
+		transform:         translateY(-5px)
+	}
+}
+.signimg1 {  
+  animation-duration: 1.5s;
+  transition:all 1.5 ease-in;
+}
+.signimg1:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  
+}
+

@@ -1,0 +1,55 @@
+.paraqraf{
+    font-size: 18px;
+}
+.kart-image{
+    position: relative;
+}
+
+.kart-date{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background-color: #2d76b2;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+h3>a{
+    color: #434343 !important;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    
+}
+
+.styleh3{
+    border-bottom: 1px solid #808080;
+}
+
+h3>a:hover {
+    color: #2d76b2 !important;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+
+ .kart-image {
+    overflow: hidden;
+}
+
+ .kart-image img {
+    transition: all 1.1s ease;
+}
+
+ .kart-image:hover img {
+    transform: scale(1.1);
+}
+
+.kart-image:hover  .kart-date{
+    background-color: #212121;
+}

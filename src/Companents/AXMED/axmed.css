@@ -1,0 +1,172 @@
+/* .top-navbar {
+    position: relative;
+    z-index: 1115;
+    background-color: #282626 !important;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 13px;
+}
+
+.top-navbar a:hover {
+    color: rgba(255, 255, 255, .6);
+}
+
+.left-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side-items {
+    padding-left: 16px;
+}
+
+.right-side-items {
+    padding-left: 16px;
+}
+
+.navbar {
+    position: sticky;
+    z-index: 1111111;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 0.4rem;
+    transition: all 0.2s ease;
+}
+
+
+.active-class {
+    background-color: #fff !important;
+    padding: 0.1rem;
+}
+
+.navbar-brand img {
+    width: 40%;
+}
+
+.active-class ul a {
+    color: #000;
+}
+
+.active-display {
+    display: none;
+}
+
+.navbar a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0 20px;
+}
+
+
+.nav-item {
+    padding-right: 10px;
+}
+
+.silde-1 {
+    background-image: url('https://res.cloudinary.com/ds7i6phph/image/upload/v1677944994/WhatsApp_Image_2023-03-01_at_01.01.41_stejcf.jpg');
+
+}
+
+.silde-2 {
+    background-image: url('https://res.cloudinary.com/ds7i6phph/image/upload/v1677944994/WhatsApp_Image_2023-03-01_at_01.01.41_3_i0pqbz.jpg');
+
+}
+
+.silde-3 {
+    background-image: url('https://res.cloudinary.com/ds7i6phph/image/upload/v1677944993/WhatsApp_Image_2023-03-01_at_01.01.41_1_rrjdo3.jpg');
+
+}
+
+.silde-4 {
+    background-image: url('https://res.cloudinary.com/ds7i6phph/image/upload/v1677944993/WhatsApp_Image_2023-03-01_at_01.01.41_2_fjgv4n.jpg');
+}
+
+.silde-5 {
+    background-image: url();
+
+}
+
+
+.slider {
+
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.slider .slide {
+    width: 100%;
+    height: 100%;
+
+}
+
+.slider-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 10;
+    padding: 0 20px;
+}
+
+.slider-caption h1 {
+    font-size: 85px;
+    line-height: 72px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    padding-bottom: 20px;
+}
+
+.slider-caption p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.slider-image {
+    width: 20%;
+    padding-bottom: 1.2rem;
+}
+
+.btn-custom {
+    padding: 16px 44px;
+    color: #000;
+    font-weight: 400;
+    border: none;
+    transition: all .2s ease;
+}
+
+.btn-custom:hover {
+    color: #fff;
+    background-color: #2d76b2;
+}
+
+.swiper-button-next {
+    color: #fff;
+    transition: all .2s ease;
+}
+
+.swiper-button-prev {
+    color: #fff;
+    transition: all .2s ease;
+}
+
+.swiper-button-next:hover {
+    transform: translateX(5px);
+}
+
+.swiper-button-prev:hover {
+    transform: translateX(-5px);
+} */

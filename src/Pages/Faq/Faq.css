@@ -1,0 +1,88 @@
+.bgFaq{
+    background-image: url('https://res.cloudinary.com/ds7i6phph/image/upload/v1678133589/breadcrumb-img-1_kmxxrk.jpg');
+    height: 30vh !important;
+}
+
+.para{
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+.faqh1{
+    font-size: 1.5rem;
+    color: #212121;
+    font-weight: 700;
+}
+
+.titlefaq{
+    padding-top: 6rem;
+}
+
+.right-title {
+    color: #888;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.linkfaq  {
+    color: #888 !important;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.scrollSec {
+    padding: 50px 0;
+    color:white;
+}
+
+.col {
+    width: 50%;
+}
+
+#vertical {height: 200vh;width: 100vw;}
+
+.vertical__content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.vertical__content .col_left {height: 100%;}
+
+.vertical__content .col.col_right {
+    width: 40%;
+}
+
+.vertical__item:not(:last-child) {
+    margin-bottom: 70px;
+}
+
+.faq-ul{
+   list-style: none;
+}
+
+.faq-li{
+    padding-top: 10px;
+}
+
+
+.faq-li >a{
+    color: #888 !important;
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 200px;
+    
+}
+
+.faqh4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #434343;
+}
+
+.padding-top{
+    padding-top: 100px;
+}
+
+

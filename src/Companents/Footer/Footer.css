@@ -1,0 +1,57 @@
+.bgfooter{
+    background-image: url('../../img/Footer/h3-footer-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+.h4footer{
+    color: #FBFBFC;
+    font-weight: 700;
+    font-size: 20px !important;
+}
+
+.pfooter{
+    font-size: 15px !important;
+    color: #ffffffb3;
+}
+
+.spanfooter{
+    font-size: 13px !important;
+    color: #fff;
+}
+
+.ptfooter{
+    padding-top: 90px;
+    border-bottom: 1px solid #888;
+}
+
+.afooter{
+    font-size: 15px;
+}
+
+.p2footer{
+    font-size: 13px !important;
+}
+
+.footer-bootom-right > a> .ikonsfb{
+    color: blue;
+    font-size: 16px;
+}
+
+.footer-bootom-right > a> .ikonsins{
+    color: red;
+    font-size: 16px
+}
+
+.footer-bootom-right > a> .ikonsgi{
+    color: red;
+    font-size: 16px
+}
+
+.footer-bootom-right > a> .ikonsli{
+    color: blue;
+    font-size: 16px
+}

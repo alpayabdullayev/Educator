@@ -1,0 +1,28 @@
+[
+    {
+        "studying_id": 1,
+        "studying_adi" : "Graduate admissions",
+        "studying_info" : "Lorem ipsum dolor sit amet, consectetur adip iscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+        "studying_linki" : "Read More",
+        
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1677867224/h3-image-2_dntt1v.jpg" 
+    },
+
+    {
+        "studying_id": 1,
+        "studying_adi" : "Continuing education",
+        "studying_info" : "Lorem ipsum dolor sit amet, consectetur adip iscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+        "studying_linki" : "Read More",
+        
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1677867223/h3-image-3_zjgpqa.jpg" 
+    },
+
+    {
+        "studying_id": 1,
+        "studying_adi" : "Current students",
+        "studying_info" : "Lorem ipsum dolor sit amet, consectetur adip iscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+        "studying_linki" : "Read More",
+        
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1677867223/h3-image-4_cs4fh3.jpg" 
+    }
+]

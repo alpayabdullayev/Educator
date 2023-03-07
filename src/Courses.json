@@ -1,0 +1,36 @@
+[
+    {
+        "kurs_idsi": 1,
+        "kurs_adi" : "Photography",
+        "kurs_sahibi" : "Amy Drufesne",
+        "kurs_info" : "Blandit accumsan ei vis, maiorum epicurei at mei nibh viderer ius pri",
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1677861088/course-img-2_unuldj.jpg"
+    },
+
+    {
+        "kurs_idsi": 2,
+        "kurs_adi" : "Front-End",
+        "kurs_sahibi" : "Anvar Khalid",
+        "kurs_info" : "Blandit accumsan ei vis, maiorum epicurei at mei nibh viderer ius pri",
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/c_scale,h_617,w_965/v1677861182/itbrains_instagram_post_shekil_wndmuy.jpg"
+    },
+
+    {
+        "kurs_idsi": 2,
+        "kurs_adi" : "Leraning CAD",
+        "kurs_sahibi" : "Martina Moore",
+        "kurs_info" : "Blandit accumsan ei vis, maiorum epicurei at mei nibh viderer ius pri",
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1677861088/course-img-4_opqscz.jpg"
+    },
+
+    {
+        "kurs_idsi": 2,
+        "kurs_adi" : "Sports Stats",
+        "kurs_sahibi" : "Taylor Fink",
+        "kurs_info" : "Blandit accumsan ei vis, maiorum epicurei at mei nibh viderer ius pri",
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1677861088/course-img-5_weajl8.jpg"
+    }
+
+
+
+]
