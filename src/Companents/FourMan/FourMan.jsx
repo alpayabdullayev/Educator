@@ -29,7 +29,7 @@ const FourMan = () => {
 
         <div className="content-tabs" data-aos="fade-right" data-aos-delay="300">
           <div className={toggleState === 1 ? "content active-content" : "content"}>
-            <p className="" data-aos="fade-down">
+            <p className={toggleState === 1 ? "pp fade-animation" : ""} >
               Description Syllabus Teachers Mauris et diam pellentesque ex
               fermentum consectetur. Curabitur non tortor sit amet ligula
               viverra commodo. Quisque luctus nunc dolor, nec porttitor diam
@@ -40,7 +40,7 @@ const FourMan = () => {
           </div>
 
           <div className={toggleState === 2 ? "content active-content" : "content"}>
-            <p data-aos="fade-down">
+            <p className={toggleState === 2 ? "pp fade-animation" : ""} >
               Description Syllabus Teachers Lorem Ipsn gravida nibh vel velit
               auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit
               consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh
@@ -51,7 +51,7 @@ const FourMan = () => {
           </div>
 
           <div className={toggleState === 3 ? "content active-content" : "content"}>
-            <p data-aos="fade-down">
+            <p className={toggleState === 3 ? "pp fade-animation" : ""} >
               Description Syllabus Teachers Lorem Ipsn gravida nibh vel velit
               auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit
               consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh

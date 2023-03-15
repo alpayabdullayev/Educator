@@ -13,6 +13,7 @@
     font-size: 1.5rem;
     color: #212121;
     font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .titlefaq{
@@ -29,6 +30,10 @@
     color: #888 !important;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
+}
+.right-title .linkfaq a{
+    color: #212121 !important;
+
 }
 
 .scrollSec {
@@ -85,4 +90,15 @@
     padding-top: 100px;
 }
 
+@media (max-width : 992px){
+    .faq-p-media{
+        font-size: 10px;
+        padding-right: 30px;
+    }
+
+    .faqh4{
+        font-size: 15px;
+        padding-right: 30px;
+    }
+}
 

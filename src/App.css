@@ -56,3 +56,24 @@ p{
 img{
   width: 100%;
 }
+main {
+  margin-top: 40rem !important;
+  overflow-x: hidden;
+}
+
+.right-title a{
+  color: #fff !important;
+}
+
+.right-title{
+  color: #fff !important;
+}
+
+.loading-effect{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  
+}

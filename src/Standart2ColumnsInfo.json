@@ -1,0 +1,44 @@
+[
+    {
+        "standart_idsi": 1,
+        "standart_adi" : "3D Printing in Enginer",
+        "standart_info" : "Science / University",
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1678357967/ps-1_wlfckq.jpg"
+    },
+
+    {
+        "standart_idsi": 2,
+        "standart_adi" : "Creative Crafts for Kids",
+        "standart_info" : "Arts & Crafts",
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1678361670/p-2_zhpucy.jpg"
+    },
+
+    {
+        "standart_idsi": 3,
+        "standart_adi" : "2017 Science Contest",
+        "standart_info" : "Science",
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1678361691/p-3_oc5jfn.jpg"
+    },
+
+    {
+        "standart_idsi": 4,
+        "standart_adi" : "Guest Speaker Workshop",
+        "standart_info" : "University",
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1678361722/p-4_sz3xno.jpg"
+    },
+
+    {
+        "standart_idsi": 5,
+        "standart_adi" : "Learning by Numbers",
+        "standart_info" : "Arts & Crafts",
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1678361794/p-6_jfrnxb.jpg"
+    },
+
+    {
+        "standart_idsi": 6,
+        "standart_adi" : "Oral Presentations",
+        "standart_info" : "Science / University",
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1678361765/p-8_skb9p2.jpg"
+    }
+
+]

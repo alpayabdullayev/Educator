@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="row ptfooter">
                 <div className=" col-12 col-sm-6 col-md-3 ">
                     <h4 className='h4footer pt-3'>Educate</h4>
-                    <p className='pfooter pt-4 pb-4'>Providing Life Changing Experiences Through Education. Class That Fit Your Busy Life. Closer to Home</p>
+                    <p className='pfooter pt-4 pb-4'>Providing Life Changing Experiences Through Education. Class That Fit <br /> Your Busy Life. Closer to Home</p>
                     <span className='spanfooter ' ><BsTelephoneInbound/>   <span>1-677-124-44227</span></span> <br />
                     <span className='spanfooter'><BiTimeFive/> <span>Mon - Sat 8.00 - 18.00</span></span> 
                 </div>
@@ -39,7 +39,7 @@ const Footer = () => {
                 <div className="col-12 col-md-3 col-sm-6">
                     <h4 className='h4footer ps-4 pt-3'>Useful Links</h4>
                     <div>
-                        <ul>
+                        <ul className='ps-4'>
                             <li className='pt-2 pb-2'><a className='afooter' href="">Popular Courses</a></li>
                             <li className='pt-2 pb-2'><a className='afooter' href="">Forums</a></li>
                             <li className='pt-2 pb-2'><a className='afooter' href="">Our Teachers</a></li>

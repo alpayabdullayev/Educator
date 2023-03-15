@@ -1,0 +1,133 @@
+[
+
+    {
+        "eventlist_id" : "1",
+        "eventslist_adi" : "Summer Program",
+        "eventslist_date" : " DATE: October 10, 2024 @ 8:00 am - October 10, 2029 @ 11:30 pm",
+        "eventlist_time" : " TIME: 8:00 am - 11:30 pm",
+        "eventlist_venue" : " VENUE: UBC University",
+        "eventlist_adress" : "  ADDRESS: 24 Wiley Ave, East York",
+        "eventlist_qiymet" : "$79",
+        "eventlist_info" : "Lorem ipsum oin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit.",
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1677944994/WhatsApp_Image_2023-03-01_at_01.01.41_stejcf.jpg"
+
+    },
+
+    {
+        "eventlist_id" : "2",
+        "eventslist_adi" : "English with Natives",
+        "eventslist_date" : "  DATE: October 10, 2024 @ 8:30 am - October 10, 2029 @ 3:00 pm",
+        "eventlist_time" : " TIME: 8:30 am - 3:00 pm",
+        "eventlist_venue" : "  VENUE: Sports Centre",
+        "eventlist_adress" : "  ADDRESS: 244 Lisgar St Toronto",
+        "eventlist_qiymet" : "$10",
+        "eventlist_info" : "Lorem ipsum oin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit.",
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1678551612/event-11-600x366_xmqkjz.jpg"
+
+    },
+
+    {
+        "eventlist_id" : "3",
+        "eventslist_adi" : "Swimming For Kids",
+        "eventslist_date" : " DATE: October 10, 2024 @ 9:00 am - October 10, 2029 @ 11:30 pm",
+        "eventlist_time" : " TIME: 9:00 am - 11:30 pm",
+        "eventlist_venue" : " VENUE: Sports Centre",
+        "eventlist_adress" : "  ADDRESS: 244 Lisgar St Toronto",
+        "eventlist_qiymet" : "$9",
+        "eventlist_info" : "Lorem ipsum oin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit.",
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1678551613/event-2-600x366_vkhdps.jpg"
+
+    },
+
+    {
+        "eventlist_id" : "4",
+        "eventslist_adi" : "Let’s Talk Science",
+        "eventslist_date" : "DATE: October 10, 2024 @ 9:00 am - October 10, 2029 @ 9:00 am",
+        "eventlist_time" : " TIME: 8:00 am - 11:30 pm",
+        "eventlist_venue" : " VENUE: UBC University",
+        "eventlist_adress" : "  ADDRESS: 24 Wiley Ave, East York",
+        "eventlist_qiymet" : "$60",
+        "eventlist_info" : "Lorem ipsum oin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit.",
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1678551612/event-8-600x366_owcsgq.jpg"
+
+    },
+
+    {
+        "eventlist_id" : "5",
+        "eventslist_adi" : "Sylvie Guillem’s Class",
+        "eventslist_date" : " DATE: October 10, 2024 @ 8:00 am - October 10, 2029 @ 11:30 pm",
+        "eventlist_time" : " TIME: 8:00 am - 11:30 pm",
+        "eventlist_venue" : " VENUE: UBC University",
+        "eventlist_adress" : "  ADDRESS: 24 Wiley Ave, East York",
+        "eventlist_qiymet" : "$75",
+        "eventlist_info" : "Lorem ipsum oin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit.",
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1678551612/event-14-600x366_eblsdl.jpg"
+
+    },
+
+    {
+        "eventlist_id" : "6",
+        "eventslist_adi" : "Summer Camp",
+        "eventslist_date" : " DATE: October 10, 2024 @ 8:00 am - October 10, 2029 @ 11:30 pm",
+        "eventlist_time" : " TIME: 11:00 am - 13:30 pm",
+        "eventlist_venue" : " VENUE: Children’s Centre",
+        "eventlist_adress" : "  ADDRESS: 24 Wiley Ave, East York",
+        "eventlist_qiymet" : "$85",
+        "eventlist_info" : "Lorem ipsum oin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit.",
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1678551613/event-4-1-600x367_yiu9oc.jpg"
+
+    },
+
+    {
+        "eventlist_id" : "7",
+        "eventslist_adi" : "Painting Festival",
+        "eventslist_date" : " DATE: October 10, 2024 @ 8:00 am - October 10, 2029 @ 11:30 pm",
+        "eventlist_time" : " TIME: 10:00 am - 16:30 pm",
+        "eventlist_venue" : "  VENUE: Children’s Centre",
+        "eventlist_adress" : "  ADDRESS: 24 Wiley Ave, East York",
+        "eventlist_qiymet" : "$5",
+        "eventlist_info" : "Lorem ipsum oin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit.",
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1678551612/event-9_nzieyf.jpg"
+
+    },
+
+    {
+        "eventlist_id" : "8",
+        "eventslist_adi" : "School Play",
+        "eventslist_date" : " DATE: October 10, 2024 @ 8:00 am - October 10, 2029 @ 11:30 pm",
+        "eventlist_time" : " TIME: 12:00 am - 2:30 pm",
+        "eventlist_venue" : " VENUE: UBC University",
+        "eventlist_adress" : "  ADDRESS: 24 Wiley Ave, East York",
+        "eventlist_qiymet" : "$29",
+        "eventlist_info" : "Lorem ipsum oin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit.",
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1678551613/event-15_a6talr.jpg"
+
+    },
+
+    {
+        "eventlist_id" : "9",
+        "eventslist_adi" : "Swan Lake in Theatre",
+        "eventslist_date" : " DATE: October 10, 2024 @ 8:00 am - October 10, 2029 @ 11:30 pm",
+        "eventlist_time" : " TIME: 8:00 am - 11:30 pm",
+        "eventlist_venue" : " VENUE: Sports Centre",
+        "eventlist_adress" : " ADDRESS: 244 Lisgar St Toronto",
+        "eventlist_qiymet" : "$90",
+        "eventlist_info" : "Lorem ipsum oin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit.",
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1678551613/event-6_vyfm8n.jpg"
+
+    },
+
+    {
+        "eventlist_id" : "10",
+        "eventslist_adi" : "Fall Audition",
+        "eventslist_date" : "DATE: October 22, 2024 @ 7:30 am - October 22, 2029 @ 2:00 pm",
+        "eventlist_time" : " TIME: 7:30 am - 2:00 pm",
+        "eventlist_venue" : "VENUE: Sports Centre",
+        "eventlist_adress" : " ADDRESS: 244 Lisgar St Toronto",
+        "eventlist_qiymet" : "Free",
+        "eventlist_info" : "Lorem ipsum oin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit.",
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1678553070/event-13_qaaxii.jpg"
+
+    }
+
+]

@@ -1,0 +1,150 @@
+/* Top Navbar Start */
+.top-navbar {
+    position: relative;
+    z-index: 1115;
+    background-color: #282626 !important;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 13px;
+}
+
+.top-navbar a {
+    color: #fff;
+}
+
+.light-image,
+.dark-image {
+    width: 40%;
+}
+
+.top-navbar a:hover {
+    color: rgba(255, 255, 255, .6);
+}
+
+.left-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side-items {
+    padding-left: 16px;
+}
+
+.right-side-items {
+    padding-left: 16px;
+}
+
+/* Top Navbar End */
+
+/* Navbar Start */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 11111;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    width: 100%;
+    padding: 0.4rem;
+    transition: all 0.2s ease;
+}
+
+.social-icon {
+    font-size: 1rem;
+    padding-bottom: 2px;
+}
+
+.active-class {
+    background-color: #fff !important;
+    padding: 0.1rem;
+}
+
+.active-class ul a {
+    color: #000 !important;
+}
+
+.active-display {
+    display: none;
+}
+
+.navbar a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0 1.25rem;
+}
+
+ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+
+.nav-item {
+    padding-right: 10px;
+}
+
+/* Navbar End */
+
+/* Dropdown Start*/
+
+.dropdown-menu {
+    border-radius: 5%;
+    border-color: #fff;
+    background-color: #fff;
+}
+
+.dropdown-item:focus {
+    background-color: #fff;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-item {
+    padding: 0.5rem !important;
+    color: #45444473 !important;
+    font-size: 1.1rem !important;
+    margin-top: 0.4rem;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #000 !important;
+}
+
+.forum-dropwdown {
+    margin-left: 9rem;
+
+}
+
+/* Dropdown Start*/
+/* Tablet */
+
+@media (max-width: 992px) {
+    .top-navbar {
+        display: none;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        width: 180px;
+    }
+
+    .navbar a {
+        padding: 0;
+    }
+}
+
+@media (max-width : 992px){
+    
+}

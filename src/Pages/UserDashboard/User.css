@@ -1,0 +1,45 @@
+.form-control{
+    width: 100%;
+    margin: 0 0 12px;
+    padding: 12px 20px;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: inherit;
+    color: #888;
+    background-color: transparent;
+    border: 1px solid #e5e5e5;
+    outline: 0;
+    background-color: #f8f7f7;
+    border-radius: 0px !important;
+}
+
+.button__user{
+    background-color: #2d76b2 ;
+    padding: 18px 51px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%; 
+}
+
+.button__user:hover{
+    background-color: #434343!important; 
+    transition: all 0.3s ease-in-out;
+    padding: 18px 51px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.userdashboard__h1{
+    font-size: 25;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #434343;
+}
+
+
+.error {
+    color:red !important;
+}

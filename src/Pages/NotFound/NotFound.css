@@ -18,17 +18,18 @@
 .Button{
     padding: 14px 42px;
     background-color: #2D76b2;
+    ;
 }
 
 .Button> a{
     font-size: 13px;
-    color: #fff;
+    color: #fff !important;
     font-weight: 700;
     
 }
 
 .Button:hover  {
-    transition: all 1.1s ease-in;
+    transition: all .5s ease-in;
     background-color: #434343; 
 }
 
@@ -49,4 +50,11 @@
 .content-p{
     font-size: 18px;
     color: #888;
+}
+
+@media (max-width : 992px){
+    .content-p{
+        font-size: 12px;
+        padding-right: 50px;
+    }
 }

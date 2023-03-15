@@ -1,0 +1,96 @@
+.light-image,
+.dark-image {
+    width: 40%;
+}
+
+/* Navbar Start */
+.white-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 111111111;
+    background-color: #fff !important;
+    width: 100%;
+    padding: 0.4rem;
+    transition: all 0.2s ease;
+}
+
+.social-icon {
+    font-size: 1rem;
+    padding-bottom: 2px;
+}
+
+.active-class {
+    padding: 0.1rem;
+}
+
+.active-class ul a {
+    color: #000 !important;
+}
+
+.white-navbar a {
+    color: #000 !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0 1.25rem;
+}
+
+ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+
+.nav-item {
+    padding-right: 10px;
+}
+
+/* Navbar End */
+
+/* Dropdown Start*/
+
+.dropdown-menu {
+    border-radius: 5%;
+    border-color: #fff;
+    background-color: #fff;
+}
+
+.dropdown-item:focus {
+    background-color: #fff;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-item {
+    padding: 0.5rem !important;
+    color: #45444473 !important;
+    font-size: 1.1rem !important;
+    margin-top: 0.4rem;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #000 !important;
+}
+
+.forum-dropwdown {
+    margin-left: 9rem;
+
+}
+
+/* Tablet */
+
+
+/* Mobile */
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        width: 180px;
+    }
+
+    .navbar a {
+        padding: 0;
+    }
+}

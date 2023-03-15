@@ -9,11 +9,11 @@ const FirstSection = () => {
   const myImageStyle = { width: "136px", height: "136px" };
   return (
     <>
-      <section className="full-height firstsecttion px-lg-5">
+      <section className="full-height firstsecttion px-lg-5 ">
         <div className="container">
           <div className="row ">
             <div className="col-12  col-md-12  col-lg-6  ">
-              <h1 className="fw-bold pt-1" data-aos="fade-down">Welcome </h1>
+              <h1 className="fw-bold pt-5" data-aos="fade-down">Welcome </h1>
               <p className="pt-4 pb-5 paraqraf" data-aos="fade-down" >
                 Etiam porttitor risus massa nec condiment gravida nibh vel velit
                 auctor aliquet. Aenean sollicitudinlorem quis bibendum
@@ -22,7 +22,7 @@ const FirstSection = () => {
               <img className="Left1" data-aos="fade-right" data-aos-delay="300" src={Welcome} alt="" />
             </div>
             <div className="col-12 col-md-12 col-lg-6  ">
-              <h1 className="fw-bold pt-1" data-aos="fade-down">Latest news</h1>
+              <h1 className="fw-bold pt-5" data-aos="fade-down">Latest news</h1>
               <p className="pt-4 pb-5 paraqraf" data-aos="fade-down">
                 Etiam porttitor risus massa nec condiment gravida nibh vel velit
                 auctor aliquet. Aenean sollicitudinlorem quis bibendum

@@ -1,0 +1,37 @@
+.kart-datee{
+    color: #fff;
+    background-color: #2d76b2;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+.kart-datee:hover{
+    background-color: #212121;
+    transition: all .5s ease-in;
+}
+
+
+.events-single__h2{
+    font-size: 39px;
+    color: #545454;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.events-single__span{
+    font-size: 10px;
+    color: #808080;
+    font-weight: 600;
+}
+
+.event-single-top{
+    border-bottom: 1px dashed #888;
+    padding-bottom:20px ;
+}
+.event-single-bottom-h4{
+    font-size: 20px;
+    color: #434343;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+

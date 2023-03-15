@@ -8,28 +8,29 @@
 
 
 .h4footer{
-    color: #FBFBFC;
+    color: #FBFBFC !important;
     font-weight: 700;
     font-size: 20px !important;
 }
 
 .pfooter{
     font-size: 15px !important;
-    color: #ffffffb3;
+    color: #ffffffb3 !important;
 }
 
 .spanfooter{
     font-size: 13px !important;
-    color: #fff;
+    color: #fff !important;
 }
 
 .ptfooter{
     padding-top: 90px;
-    border-bottom: 1px solid #888;
+    border-bottom: 1px solid #888 !important;
 }
 
 .afooter{
     font-size: 15px;
+    color: #b9b9b9 !important;
 }
 
 .p2footer{

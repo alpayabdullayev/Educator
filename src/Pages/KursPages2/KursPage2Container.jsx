@@ -1,8 +1,8 @@
 import React from 'react'
 import '../KursPages2/KursPages2.css'
 import KursPages2 from '../KursPages2/KursPages2'
-import FirstNavbar from '../../Companents/FirstNavbar/FirstNavbar'
-import SecondaNavbar from '../../Companents/SecondNavbar/SecondaNavbar'
+
+
 import {Link} from 'react-router-dom'
 import {HiSquares2X2} from 'react-icons/hi2'
 import {AiOutlineUnorderedList} from 'react-icons/ai'
@@ -10,12 +10,17 @@ import {AiOutlineLeft} from 'react-icons/ai'
 import {AiOutlineRight} from 'react-icons/ai'
 import CoursesList2 from '../../CoursesList2.json'
 import Footer from '../../Companents/Footer/Footer'
+import TopNavbar from '../../Companents/TopNavbar/TopNavbar'
+import WhiteNavbar from '../../Companents/WhiteNavbar/WhiteNavbar'
 
 const KursPage2Container = () => {
   return (
     <>
-        <FirstNavbar/>
-        <SecondaNavbar/>
+
+
+        <TopNavbar/>
+        <WhiteNavbar/>
+
 
         <section  className="bgCoursesList para">
           <div className="container">

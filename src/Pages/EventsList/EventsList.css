@@ -1,0 +1,30 @@
+.october{
+    font-family: Montserrat,sans-serif;
+    font-size: 26px;
+    color: #434343;
+    font-weight: 600;
+    border: 1px solid #e5e5e5;
+    padding: 1.2rem 1.3rem;
+    background-color: #fafafa;
+    font-weight: 700;
+    
+}
+
+.h1__oct{
+    font-family: Montserrat,sans-serif;
+    font-size: 26px;
+    color: #434343;
+    font-weight: 600;
+}
+
+.kart__bottom h3{
+    border: none;
+}
+
+.kart__div{
+    border-bottom: 1px dashed #888;
+}
+
+.kart .kart-image a img{
+    object-fit: cover !important;
+}

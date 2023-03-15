@@ -1,66 +1,40 @@
-.swiper {
-    width: 100%;
-    height: 100vh;
-  }
-  
-.swiper-slide {
-    background-position: center;
-    background-size: cover;
-}
-  
-.swiper-slide img {
-    display: block;
-    width: 100%;
+.silde-1 {
+    background-image: url("https://res.cloudinary.com/ds7i6phph/image/upload/v1677944993/WhatsApp_Image_2023-03-01_at_01.01.41_1_rrjdo3.jpg");
+
 }
 
-.h1style{
-    z-index: 3;
-    font-size: 50px;
-    color: aliceblue;
+.silde-2 {
+    background-image: url("https://res.cloudinary.com/ds7i6phph/image/upload/v1677944994/WhatsApp_Image_2023-03-01_at_01.01.41_stejcf.jpg");
+
 }
 
-.swipper1{
-    background-image: url('https://res.cloudinary.com/ds7i6phph/image/upload/v1677944993/WhatsApp_Image_2023-03-01_at_01.01.41_1_rrjdo3.jpg');
-    animation-name: zoom-effect;
-    animation-duration: .5;
-    animation-timing-function: ease-in;
-    height: 100vh;
+.silde-3 {
+    background-image: url("https://res.cloudinary.com/ds7i6phph/image/upload/v1677944993/WhatsApp_Image_2023-03-01_at_01.01.41_2_fjgv4n.jpg");
+
 }
 
-.swipper2{
-    background-image: url('https://res.cloudinary.com/ds7i6phph/image/upload/v1677944994/WhatsApp_Image_2023-03-01_at_01.01.41_stejcf.jpg');
-    animation-name: zoom-effect;
-    animation-duration: .5;
-    animation-timing-function: ease-in;
+.silde-4 {
+    background-image: url("https://res.cloudinary.com/ds7i6phph/image/upload/v1677944994/WhatsApp_Image_2023-03-01_at_01.01.41_3_i0pqbz.jpg");
 }
 
-.swipper3{
-    background-image: url('https://res.cloudinary.com/ds7i6phph/image/upload/v1677944993/WhatsApp_Image_2023-03-01_at_01.01.41_2_fjgv4n.jpg');
-    animation-name: zoom-effect;
-    animation-duration: .5;
-    animation-timing-function: ease-in;
-}
-
-.swipper4{
-    background-image: url('https://res.cloudinary.com/ds7i6phph/image/upload/v1677944994/WhatsApp_Image_2023-03-01_at_01.01.41_3_i0pqbz.jpg');
-    animation-name: zoom-effect ;
-    animation-duration: .5;
-    animation-timing-function: ease-in;
+.education-image {
+    width: 20%;
+    padding-bottom: 2rem;
 }
 
 .slider {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    position: absolute !important;
+    top: 0 !important;
+    z-index: 10000;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100vh !important;
+    overflow: hidden !important;
 }
 
 .slider .slide {
-    width: 100%;
-    height: 100%;
-
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .slider-caption {
@@ -70,52 +44,54 @@
     transform: translate(-50%, -50%);
     text-align: center;
     z-index: 10;
-    padding: 0 20px;
+    padding: 0 1.2rem;
 }
 
 .slider-caption h1 {
-    font-size: 85px;
-    line-height: 72px;
+    width: 60rem;
+    font-size: 5rem;
+    line-height: 4.5rem;
     font-weight: 700;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    padding-bottom: 20px;
+    padding-bottom: 1.3rem;
 }
 
 .slider-caption p {
-    font-size: 18px;
-    line-height: 28px;
+    padding-bottom: 1.2rem;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
     font-weight: 300;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.slider-image {
-    width: 20%;
-    padding-bottom: 1.2rem;
-}
 
 .btn-custom {
     padding: 16px 44px;
-    color: #000;
-    font-weight: 400;
+    background-color: #fff;
+    font-weight: 700;
     border: none;
     transition: all .2s ease;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000 !important;
 }
 
 .btn-custom:hover {
-    color: #fff;
+    color: #fff !important;
     background-color: #2d76b2 !important;
     z-index: 999 !important;
 }
 
 .swiper-button-next {
-    color: #fff;
+    color: #fff !important;
     transition: all .2s ease;
 }
 
 .swiper-button-prev {
-    color: #fff;
+    color: #fff !important;
     transition: all .2s ease;
 }
 
@@ -127,28 +103,19 @@
     transform: translateX(-5px);
 }
 
-
-
-@keyframes zoom-effect {
-    from {
-        background-size: 100%;
-    }
-
-    to {
-        background-size: 150%;
+@media (max-width: 992px) {
+    .slider-caption h1 {
+        width: 40rem;
     }
 }
 
-.parallaxele{
-    background-position: center !important;
-    background-size: cover !important;
-    background-attachment: fixed !important;
-}
+@media (max-width: 576px) {
+    .slider-caption h1 {
+        width: 20rem;
+        font-size: 4rem;
+    }
 
-.zindex{
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
+    .education-image {
+        width: 40%;
+    }
 }

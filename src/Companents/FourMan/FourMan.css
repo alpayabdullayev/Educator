@@ -75,7 +75,7 @@ button {
     background: #222;
    
 }
-  .content p {
+  .content .pp {
    width: 50%;
     height: 100%;
 }
@@ -109,4 +109,18 @@ button {
     }  
 
   
+}
+
+.fade-animation {
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
+@keyframes fade {
+    from {
+        opacity: 0.1;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
