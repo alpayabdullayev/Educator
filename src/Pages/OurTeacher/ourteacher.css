@@ -1,0 +1,49 @@
+.imza{
+    width:  260px;
+    height:61px ;
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.ourteacher__h3 {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.ourteacher__h3 a{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ourteacher__p{
+    text-align: center;
+    color: #9b9b9b;
+    
+}
+
+.padding__teacher{
+    padding-top: 5rem;
+}
+
+.teacher__h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 39px;
+    color: #212121;
+    font-weight: 700;
+}
+
+.teacher__top-p{
+    font-size: 18px;
+    color: #888;
+
+}
+
+.teacher__bottom-p{
+    font-size: 15px;
+    color: #888;
+}

@@ -60,7 +60,7 @@ const User = () => {
                     <div className="form-group col-md-12 pt-2">
                       <label htmlFor="username">Kullanıcı Adı:</label>
                       <Field name="username" className='form-control' />
-                      <span className='error'><ErrorMessage name="password" style={{ color: "red" }} /></span>
+                      <span className='error'><ErrorMessage name="username" style={{ color: "red" }} /></span>
                     </div>
 
                     <div className="form-group col-12 pt-2">

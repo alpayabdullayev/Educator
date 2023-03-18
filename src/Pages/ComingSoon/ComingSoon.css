@@ -1,0 +1,27 @@
+.page {
+    background-image: url('https://res.cloudinary.com/ds7i6phph/image/upload/v1679160560/coming-soon-2_yru6yv.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.page-logo {
+    width: 15%;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.page-text {
+    font-family: Montserrat;
+    font-size: 75px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    padding-bottom: 40px;
+}

@@ -1,0 +1,63 @@
+ .form-control {
+    background-color: #f2f2f2 !important; 
+    /* border-color: #033f47 !important; */
+    color: #434343 !important;
+}
+
+ .form-control:focus {
+    border-color:#2D76b2 !important;
+    box-shadow: none !important;
+}
+
+ .form-control::placeholder {
+    color:#888 !important ;
+}
+
+ input.form-control {
+    height: 44px;
+}
+
+.contactus__form{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #888;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    padding: 50px;
+}
+
+.contact__map{
+    width: 100% !important;
+    height: 100% !important;
+    margin-bottom: -7px;
+}
+
+.contactus__h1{
+    font-size: 39px;
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.contactus__p{
+    font-size: 18px;
+    color: #888;
+}
+
+.contactus__h2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #434343;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.new-york__ofis{
+    border-bottom: 1px dashed #e5e5e5;
+}
+
+

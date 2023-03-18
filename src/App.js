@@ -14,8 +14,7 @@ import HashLoader from "react-spinners/HashLoader";
 
 
 
-import FirstSection from './Companents/FirstSection/FirstSection';
-import Newest from './Companents/Newest/Newest';
+
 
 import AOS from 'aos'
 import'aos/dist/aos.css'
@@ -26,12 +25,16 @@ import NotFound from './Pages/NotFound/NotFound';
 import CoursesList from './Pages/CoursesList/CoursesList';
 import KursPage2Container from './Pages/KursPages2/KursPage2Container';
 import Faq from './Pages/Faq/Faq';
-import ComingSoon from './Pages/ComingSoon/CoominaSoon'
+import ComingSoon from './Pages/ComingSoon/CoomingSoon'
 import AboutMe from './Pages/AboutMe/AboutMe';
 import Standart2ColumnsContainer from './Pages/Standart2Columns/Standart2ColumnsContainer';
 import EventsListContainer from './Pages/EventsList/EventsListContainer';
 import User from './Pages/UserDashboard/User';
 import EventsSingle from './Pages/EventsSingle/EventsSingle';
+import ContactUs from './Pages/ContactUs/ContactUs';
+import OurTeacher from './Pages/OurTeacher/OurTeacher';
+import About from './Pages/About/About';
+import KursSingle from './Pages/KursSingle/KursSingle';
 
 AOS.init();
 
@@ -83,6 +86,13 @@ function App() {
         <Route path='eventslist' element={<EventsListContainer />}/>
         <Route path='userdashboard' element={<User />}/>
         <Route path='eventsingle' element={<EventsSingle />}/>
+        <Route path='contact' element={<ContactUs />}/>
+        <Route path='ourteacher' element={<OurTeacher />}/>
+        <Route path='ourteacher' element={<OurTeacher />}/>
+        <Route path='about' element={<About/>}/>
+        <Route path='coursesingle' element={<KursSingle/>}/>
+        <Route path='coomingsoon' element={<ComingSoon />} />
+        
         {/* nestet root */}
         
         

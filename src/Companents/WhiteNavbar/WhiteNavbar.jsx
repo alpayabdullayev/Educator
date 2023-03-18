@@ -55,8 +55,8 @@ const qaraMenyunuBagla = (e) => {
 
 
 
-    <div className='overlay ' ref={qaraDivUnvaniRef } onClick={qaraMenyunuBagla}>
-      <GiCrossedPistols className='cross-icon' onClick={qaraMenyunuBagla}  />
+    <div className='overlay  ' ref={qaraDivUnvaniRef } onClick={qaraMenyunuBagla}>
+      <GiCrossedPistols className='cross-icon'   />
 
       <div className='nav-links nav-link fw-bold text-white overlay__nav'>
       <ul class="navbar-nav ms-auto">
@@ -70,34 +70,34 @@ const qaraMenyunuBagla = (e) => {
                                     <li><Link class="dropdown-item" to="courses-list-4-columns">Courses  List 4 Columns</Link></li>
                                     <li><Link class="dropdown-item" to="courses-simple-single">Course Simple Single</Link></li>
 
-                                    <li><Link class="dropdown-item" to="">User Dashboard</Link>
+                                    <li><Link class="dropdown-item" to="userdashboard">User Dashboard</Link>
                                     </li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <Link class="nav-link" aria-current="page" to="/">Events</Link>
+                                <Link class="nav-link" aria-current="page" to="eventslist">Events</Link>
                                 <ul class="dropdown-menu">
-                                    <li><Link class="dropdown-item" to="events-list">Events List</Link></li>
-                                    <li><Link class="dropdown-item" to="event-single">Event Single</Link></li>
+                                    <li><Link class="dropdown-item" to="eventslist">Events List</Link></li>
+                                    <li><Link class="dropdown-item" to="eventsingle">Event Single</Link></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
                                 <Link class="nav-link" aria-current="page" to="/">Pages</Link>
                                 <ul class="dropdown-menu">
                                     <li><Link class="dropdown-item" to="/">Our Teachers</Link></li>
-                                    <li><Link class="dropdown-item" to="/">About Me</Link></li>
+                                    <li><Link class="dropdown-item" to="aboutme">About Me</Link></li>
                                     <li><Link class="dropdown-item" to="faq">FAQ Page</Link></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <Link class="nav-link" aria-current="page" to="/">Blog</Link>
+                                <Link class="nav-link" aria-current="page" to="contact">Blog</Link>
                                 <ul class="dropdown-menu">
-                                    <li><Link class="dropdown-item" to="/">Standard List</Link></li>
-                                    <li><Link class="dropdown-item" to="/">Standard Post</Link></li>
+                                    <li><Link class="dropdown-item" to="">Standard List</Link></li>
+                                    <li><Link class="dropdown-item" to="">Standard Post</Link></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" aria-current="page" to="/">Contact</Link>
+                                <Link class="nav-link" aria-current="page" to="contact">Contact</Link>
                             </li>
 
                         </ul>
@@ -132,7 +132,7 @@ const qaraMenyunuBagla = (e) => {
                                     <li><Link class="dropdown-item" to="courses-list-4-columns">Courses  List 4 Columns</Link></li>
                                     <li><Link class="dropdown-item" to="courses-simple-single">Course Simple Single</Link></li>
 
-                                    <li><Link class="dropdown-item" to="">User Dashboard</Link>
+                                    <li><Link class="dropdown-item" to="userdashboard">User Dashboard</Link>
                                     </li>
                                 </ul>
                             </li>
@@ -147,7 +147,7 @@ const qaraMenyunuBagla = (e) => {
                                 <Link class="nav-link" aria-current="page" to="/">Pages</Link>
                                 <ul class="dropdown-menu">
                                     <li><Link class="dropdown-item" to="/">Our Teachers</Link></li>
-                                    <li><Link class="dropdown-item" to="/">About Me</Link></li>
+                                    <li><Link class="dropdown-item" to="/aboutme">About Me</Link></li>
                                     <li><Link class="dropdown-item" to="faq">FAQ Page</Link></li>
                                 </ul>
                             </li>
@@ -159,12 +159,13 @@ const qaraMenyunuBagla = (e) => {
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" aria-current="page" to="/">Contact</Link>
+                                <Link class="nav-link" aria-current="page" to="contact">Contact</Link>
                             </li>
                             <li class="nav-item">
                                 <a className='search' href="#">
                                     <AiOutlineSearch />
                                 </a>
+                                
                             </li>
                         </ul>
                     </div>

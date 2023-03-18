@@ -50,6 +50,9 @@ const AboutMe = () => {
                     <div className="kart pt-3">
                          <div className="kart-image">
                             <img src="https://res.cloudinary.com/ds7i6phph/image/upload/v1678285206/instructor-img-1_yah6hq.jpg" alt="" />
+                            <div class="layer">
+                                <h3 className='joseph__h3' >Army Drufse</h3>
+                            </div>
                         </div>
                         <div className="kart-content">
                             <h3 className='aboutme-h3'> Army Drufse</h3>

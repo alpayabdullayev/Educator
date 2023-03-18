@@ -1,0 +1,79 @@
+.form-email {
+    border-radius: 10px;
+    padding: 5px 80px;
+    border: 2px solid #ccc;
+    position: relative;
+    width: 100%;
+}
+
+.form-email::before {
+    content: "Enter Your Email";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #999;
+}
+
+.form-email:focus {
+    outline: none;
+    border-color: #6b7cff;
+    box-shadow: 0px 0px 5px #6b7cff;
+}
+
+.form-email:focus::before {
+    display: none;
+}
+
+
+.page-note {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+
+}
+
+.page-form {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 6rem;
+}
+
+.form-btn {
+    height: 100%;
+    padding: 12px;
+}
+
+.form-email:focus {
+    color: #000;
+}
+
+.form-email::placeholder {
+    color: #6b6b6baa;
+}
+
+/* CSS */
+.button-19 {
+    background-color: #1899D6;
+    border: solid transparent;
+   
+    
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 8px 50px;
+    text-align: center;
+    text-transform: uppercase;
+
+}

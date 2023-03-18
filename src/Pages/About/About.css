@@ -1,0 +1,91 @@
+.bgabout{
+    background-image: url('https://res.cloudinary.com/ds7i6phph/image/upload/v1679081436/about-us-title-area_vkts5f.jpg');
+    height: 281px !important;
+}
+
+
+.para{
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+.joseph__h2{
+    margin: 20px 0;
+    font-family: Montserrat,sans-serif;
+    color: #434343;
+    font-weight: 700;
+}
+.joseph__p{
+    color: #888;
+    font-size: 18px;
+    line-height: 33px
+}
+.joseph__h3{
+    margin: 20px 0;
+    font-family: Montserrat,sans-serif;
+    color: #434343;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.joseph--p{
+    color: #888;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.owl-dots{
+    display: none;
+}
+.item{
+    min-width: 100%;
+    
+}
+
+.item img{
+    
+    height: 350px;
+}
+
+
+.owl-stage{
+    transform: translate3d(-2430px, 0px, 0px);
+    transition: all 0.5s ease 0s;
+    width: 4558px;
+}
+
+.kart-image img{
+    object-fit: cover;
+}
+
+.layer{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.7s;
+}
+
+.layer:hover{
+    background: rgba(45, 118, 178, 0.5);
+}
+
+.layer h3{
+    width: 100%;
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+    bottom: 0;
+    text-align: center;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3{
+    bottom:49%;
+    opacity: 1;
+}

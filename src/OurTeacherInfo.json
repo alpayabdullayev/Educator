@@ -1,0 +1,51 @@
+[
+
+    {
+        "teacher_id" : 1,
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1678357967/instructor-img-1_w9ce7z.jpg",
+        "teacher_name" : "Rosa Echols",
+        "teacher_work" : "Teacher"
+    },
+    {
+        "teacher_id" : 2,
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1679071927/teachers-3_ugmksv.jpg",
+        "teacher_name" : "Lucas Hall",
+        "teacher_work" : "Assistant"
+    },
+    {
+        "teacher_id" : 3,
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1679071927/teachers-4_ixm1oc.jpg",
+        "teacher_name" : "Becky Curry",
+        "teacher_work" : "Teacher"
+    },
+    {
+        "teacher_id" : 4,
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1679071927/teachers-5_g8tmrf.jpg",
+        "teacher_name" : "Aron Corrs",
+        "teacher_work" : "Principal"
+    },
+    {
+        "teacher_id" : 5,
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1679071926/teachers-6_qinomy.jpg",
+        "teacher_name" : "Lisa Jones",
+        "teacher_work" : "English"
+    },    {
+        "teacher_id" : 6,
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1679071927/teachers-8_c7mgtk.jpg",
+        "teacher_name" : "Joan Smith",
+        "teacher_work" : "Assistant"
+    },    {
+        "teacher_id" : 7,
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1679071927/teachers-7_cb0fdf.jpg",
+        "teacher_name" : "Marry Burns",
+        "teacher_work" : "Principal"
+    },    {
+        "teacher_id" : 8,
+        "ImgUrl" : "https://res.cloudinary.com/ds7i6phph/image/upload/v1679071926/teachers-9_liy8ox.jpg",
+        "teacher_name" : "Kim Tims",
+        "teacher_work" : "Teacher"
+    }
+
+
+
+]
