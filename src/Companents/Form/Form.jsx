@@ -22,26 +22,26 @@ const Forum = () => {
 
     const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+    const sendEmail = (e) => {
+        e.preventDefault();
 
-    emailjs.sendForm('service_4e4tv2p', 'template_0tzmt9e', form.current, 'I4QzzLgIy6brxHtMz')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
+        emailjs.sendForm('service_4e4tv2p', 'template_ih2qfsd', form.current, 'I4QzzLgIy6brxHtMz')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
 
 
     return (
         <div>
             {isSubscribed ? (
-                <p className='page-note'>Thank you for subscribing! You will receive notifications via email.</p>
+                <p className='page-note' data-aos='fade-up'>Thank you for subscribing! You will receive notifications via email.</p>
             ) : (
-                <form  className="page-form" ref={form} onChange={sendEmail} onSubmit={handleSubscribe}>
+                <form className="page-form" ref={form} onChange={sendEmail} onSubmit={handleSubscribe}>
                     <label>
-                        <input type="email" className='form-email' name='sexsin_emaili' value={email} onChange={handleEmailChange} />
+                        <input type="email" className='form-email' placeholder='Email' name='sexsin_emaili' value={email} onChange={handleEmailChange} />
                     </label>
                     <motion.button
                         whileHover={{ scale: 1.1 }}

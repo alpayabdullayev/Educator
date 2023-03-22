@@ -37,7 +37,7 @@ const OurTeacher = () => {
                       <div className="kart-image">
                         <img src='https://educator.qodeinteractive.com/wp-content/uploads/2017/07/teachers-1.jpg' alt="" />
                             <div class="layer">
-                                <h3 className='joseph__h3' >Joseph White</h3>
+                                <h3 className='joseph__h3' >Rəşaaaad</h3>
                             </div>
                       </div>
                     </div>  

@@ -20,6 +20,9 @@ import {HiUserGroup} from 'react-icons/hi'
 import {FaGraduationCap} from 'react-icons/fa'
 import {MdVerifiedUser} from 'react-icons/md'
 import {AiFillStar} from 'react-icons/ai'
+import {AiFillInstagram} from 'react-icons/ai'
+import {FcBusinessContact} from 'react-icons/fc'
+import SearchButton from '../../Companents/SearchButton/SearchButton'
 
 
 import {
@@ -283,6 +286,21 @@ const KursSingle = () => {
                                         </div>
                                     </div>
                                 </div>
+
+                                <div className="Features__title pt-3">
+                                <h3 className='content__h3 pb-4 pt-3'>Contact Us</h3>
+                                <div className="col-md-3">
+                                      <Link className='insta__logoo' to="/contact">
+                                       <span className='fs-1 ps-4'><FcBusinessContact/></span> 
+                                </Link>
+                                </div>
+                              
+                            </div>
+                            <div className="Features__title pt-3">
+                                <h3 className='content__h3 pb-4 pt-3'>Search</h3>
+                                <span className='search__blog'><SearchButton/></span>
+                              
+                            </div>
                             </div>
                     </div>       
 

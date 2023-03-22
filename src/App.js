@@ -35,6 +35,8 @@ import ContactUs from './Pages/ContactUs/ContactUs';
 import OurTeacher from './Pages/OurTeacher/OurTeacher';
 import About from './Pages/About/About';
 import KursSingle from './Pages/KursSingle/KursSingle';
+import ScrollHander from './Companents/ScrollHander';
+import Blog from './Pages/Blog/Blog';
 
 AOS.init();
 
@@ -52,7 +54,7 @@ function App() {
 
   return (
   <>
-
+    <ScrollHander/>
       <div>
 
 
@@ -69,7 +71,8 @@ function App() {
           </div> :
 
 
-  
+    
+    
     <BrowserRouter>
       
     
@@ -78,20 +81,21 @@ function App() {
 
         <Route path='/' element={<Homes/>}/>
         <Route path='*' element={<NotFound />}/>
-        <Route path='courses-list-4-columns' element={<CoursesList />}/>
-        <Route path='courses-list-4-columns/courses-list-4-columns/2' element={<KursPage2Container />}/>
-        <Route path='faq' element={<Faq />}/>
-        <Route path='aboutme' element={<AboutMe />}/>
-        <Route path='standart2columns' element={<Standart2ColumnsContainer />}/>
-        <Route path='eventslist' element={<EventsListContainer />}/>
-        <Route path='userdashboard' element={<User />}/>
-        <Route path='eventsingle' element={<EventsSingle />}/>
-        <Route path='contact' element={<ContactUs />}/>
-        <Route path='ourteacher' element={<OurTeacher />}/>
-        <Route path='ourteacher' element={<OurTeacher />}/>
-        <Route path='about' element={<About/>}/>
-        <Route path='coursesingle' element={<KursSingle/>}/>
-        <Route path='coomingsoon' element={<ComingSoon />} />
+        <Route path='/courses-list-4-columns' element={<CoursesList />}/>
+        <Route path='/courses-list-4-columns/courses-list-4-columns/2' element={<KursPage2Container />}/>
+        <Route path='/faq' element={<Faq />}/>
+        <Route path='/aboutme' element={<AboutMe />}/>
+        <Route path='/standart2columns' element={<Standart2ColumnsContainer />}/>
+        <Route path='/eventslist' element={<EventsListContainer />}/>
+        <Route path='/userdashboard' element={<User />}/>
+        <Route path='/eventsingle' element={<EventsSingle />}/>
+        <Route path='/contact' element={<ContactUs />}/>
+        <Route path='/ourteacher' element={<OurTeacher />}/>
+        <Route path='/ourteacher' element={<OurTeacher />}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/coursesingle' element={<KursSingle/>}/>
+        <Route path='/coomingsoon' element={<ComingSoon />} />
+        <Route path='/blog' element={<Blog />} />
         
         {/* nestet root */}
         

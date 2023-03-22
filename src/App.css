@@ -77,3 +77,22 @@ main {
   height: 100vh;
   
 }
+::-webkit-scrollbar {
+  width: .6rem;
+  background-color: inherit;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 1rem;
+  background-color: #2d76b2;
+  border-radius: 66px;
+}
+
+.scroll-top {
+  background-color: #2d76b2 !important;
+  color: #fff !important;
+  bottom: 10px !important;
+  right: 10px !important;
+  bottom: 15px !important;
+  border-radius: 50% !important;
+}

@@ -86,9 +86,31 @@ const About = () => {
                 <div className="kart-image ">
                   <img src="https://res.cloudinary.com/ds7i6phph/image/upload/v1679170247/about-teacher_wg72nx.jpg" alt="" />
                   <div class="layer">
-                    <h3 className='joseph__h3' >Joseph White</h3>
+                    <h3 className='joseph__h3' >Axhmed</h3>
                   </div>
                 </div>
+              </div>
+              <div className="skills ps-3">
+                <div className="skils__text d-flex justify-content-between">
+                  <h2>Certificates</h2>
+                  <h2>75%</h2>
+                </div>
+                
+                <div className="progress-bar">
+                  <div className="skils_css">
+                  </div>
+                </div>
+
+                <div className="skils__text d-flex justify-content-between">
+                  <h2>Education Skills</h2>
+                  <h2>31%</h2>
+                </div>
+                
+                <div className="progress-bar">
+                  <div className="skils_css_2">
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>

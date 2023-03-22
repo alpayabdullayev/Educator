@@ -89,3 +89,52 @@
     bottom:49%;
     opacity: 1;
 }
+
+.skills h2{
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #434343;
+    font-size: 1rem;
+    font-family: Montserrat,sans-serif;
+}
+
+.progress-bar{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 10px;
+}
+
+.progress-bar div{
+    height: 10px;
+    width: 0%;
+}
+
+
+.skils_css{
+    background: #2d76b2;
+    animation : certificates 1s linear forwards;
+    animation-duration: 2s !important;
+}
+
+.skils_css_2{
+    background: #2d76b2;
+    animation : education 1s linear forwards;
+    animation-duration: 2s !important;
+}
+
+
+
+@keyframes certificates {
+    100%{
+        width: 86%;
+        
+    }
+
+}
+
+@keyframes education {
+    100%{
+        width: 31%;
+    }
+}

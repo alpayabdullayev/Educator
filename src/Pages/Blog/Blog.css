@@ -1,0 +1,48 @@
+.bgblog{
+    background-image: url('https://res.cloudinary.com/ds7i6phph/image/upload/v1679520034/title-area-parallax-1_p95r8k.jpg');
+    height: 40vh !important;
+}
+
+.para{
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+.kart-image{
+    object-fit: cover !important;
+}
+
+.p__border{
+    border-bottom: 1px dashed #e1e1e1;
+    padding-bottom: 50px !important;
+}
+.kursor1{
+    cursor: pointer;
+}
+
+.coments__blog{
+    background-color: #f9f9f9;
+}
+
+.kursor__border{
+    border-bottom: 1px dashed #888
+}
+
+.h3_a{
+    font-family: Montserrat,sans-serif !important;
+}
+
+ .insta__logo{
+    height: 100px !important;
+    width: 100px !important;
+} 
+
+
+
+@media (min-width:768px){
+    .insta__logo{
+        width: 50px !important;
+        height: 50px !important;
+    }
+}

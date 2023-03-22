@@ -14,12 +14,13 @@ import TopNavbar from '../Companents/TopNavbar/TopNavbar'
 import Header from '../Companents/Header/Header';
 import Navbar from '../Companents/Navbar/Navbar';
 import WhiteNavbar from '../Companents/WhiteNavbar/WhiteNavbar'
+import ScrollToTop from "react-scroll-to-top";
 
 
 const Homes = () => {
   return (
     <>
-   
+    <ScrollToTop smooth color='white' className='scroll-top' />
     <TopNavbar/>
     <WhiteNavbar/>
     <Header/>
