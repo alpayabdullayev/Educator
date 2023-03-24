@@ -128,7 +128,7 @@ ul {
 }
 
 .menu .nav-link {
-    color: #929292;
+    color: #fff;
     text-transform: none;
     font-size: 15px;
     line-height: 24px;
@@ -140,9 +140,9 @@ ul {
     position: relative;
 }
 
-.menu .nav-link:hover {
-    color: #000;
-}
+/* .menu .nav-link:hover {
+    color: #434343;
+} */
 
 .my-dropdown .menu {
     width: 100%;
@@ -163,7 +163,7 @@ ul {
     height: 2px;
     bottom: 8px;
     left: 0;
-    background: #000;
+    background: #e1e1e1;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -171,4 +171,7 @@ ul {
 .underline-hover:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+.menu{
+    background-color:#2d76b2 !important ;
 }
