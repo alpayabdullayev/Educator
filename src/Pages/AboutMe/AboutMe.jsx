@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import '../AboutMe/AboutMe.css'
 
 
+
 import {Link} from 'react-router-dom'
 import Footer from '../../Companents/Footer/Footer'
 import {MdLocationOn} from 'react-icons/md'
@@ -37,7 +38,9 @@ const AboutMe = () => {
     <section  className="bgFaq para">
           <div className="container">
             <div className='d-flex justify-content-between titlefaq '>
-              <h1 className='faqh1'>Amy Drufesne</h1>
+              <h1 className='faqh1'>Amy Drufesne
+
+              </h1>
               <span className='right-title'><Link className='linkfaq' to="/">Home</Link> / Amy Drufesne</span>
             </div>
           </div>
@@ -51,11 +54,13 @@ const AboutMe = () => {
                          <div className="kart-image">
                             <img src="https://res.cloudinary.com/ds7i6phph/image/upload/v1678285206/instructor-img-1_yah6hq.jpg" alt="" />
                             <div class="layer">
-                                <h3 className='joseph__h3' >Mexrivan</h3>
+                                <h3 className='joseph__h3' >Army Drufse</h3>
                             </div>
                         </div>
                         <div className="kart-content">
-                            <h3 className='aboutme-h3'> Army Drufse</h3>
+                            <h3 className='aboutme-h3'> 
+                            Army Drufse
+                            </h3>
                             <p className='aboutme-p'>Associate Professor</p>
                             <p>Lorem Ipsn gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit.</p>
                              <span className='d-flex'>

@@ -1,0 +1,132 @@
+@media (max-width: 992px) {
+    .mobile-nav-links {
+        display: flex;
+        flex-direction: space-between;
+        align-items: center;
+    }
+
+    .mobile-nav-links a {
+        color: #000;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 3.4rem;
+        padding-left: 20px;
+    }
+
+    .mobile-nav-item {
+        padding-right: 40px;
+    }
+
+    .mobile-nav-links {
+        height: 100vh;
+        width: 300px;
+        position: absolute;
+        z-index: 2;
+        background-color: #FFF;
+    }
+
+    /* Mobile Dropdown */
+    /* .my-dropdown-mobile {
+        position: relative;
+        z-index: 200;
+    }
+
+    .menu-mobile {
+        position: absolute;
+        overflow: hidden;
+        z-index: 1;
+        top: 35px;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 170px;
+        padding-left: 37px;
+        opacity: 0;
+        visibility: hidden;
+        translate: 0 -20px;
+        transition: 0.4s;
+        overflow: hidden;
+
+    }
+
+    .menu-mobile .nav-link-mobile {
+        color: #929292;
+        text-transform: none;
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: 600;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        padding-left: 55px !important;
+        width: 163px;
+        position: relative;
+    }
+
+    .menu-mobile .nav-link-mobile:hover {
+        color: #000;
+    }
+
+    .my-dropdown-mobile .menu-mobile {
+        width: 100%;
+        border-radius: 0;
+    }
+
+
+    .my-dropdown-mobile:hover>.menu-mobile {
+        opacity: 1;
+        visibility: visible;
+        translate: 0;
+    } */
+
+    .my-dropdown-mobile {
+        position: relative !important;
+        z-index: 200;
+    }
+
+    .nav-link-mobile {
+        padding-left: 0 !important;
+        padding-top: 0 !important;
+        padding: 10px !important;
+    }
+
+    .menu-mobile {
+        position: absolute;
+        color: #fff !important;
+        background-color: #2d76b2;
+        padding: 11px;
+        top: 70px;
+        left: 99px;
+        opacity: 0;
+        visibility: hidden;
+        translate: 0 -20px;
+        transition: 0.4s;
+        overflow: hidden;
+    }
+
+    .menu-mobile-active {
+        position: absolute;
+        visibility: visible;
+        display: block;
+        opacity: 1;
+        top: 70px;
+        left: 99px;
+        translate: 0;
+    }
+
+    .menu-mobile .nav-link-mobile {
+        color: #fff !important;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .mobile-nav-links {
+        display: none;
+    }
+}

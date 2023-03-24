@@ -2,6 +2,9 @@ import React from 'react'
 import '../About/About.css'
 import {Link} from 'react-router-dom'
 
+//typed
+import Typed from 'react-typed';
+
 
 import TopNavbar from '../../Companents/TopNavbar/TopNavbar'
 import WhiteNavbar from '../../Companents/WhiteNavbar/WhiteNavbar'
@@ -37,7 +40,16 @@ const About = () => {
             <div className="col-12 col-md-7">
               <div className="Joseph">
                 <h2 className='joseph__h2'>
-                  Joseph White
+                    <Typed className='typing-text text-color'
+                strings={[
+                    'Joseph White',
+                    ]}
+                    typeSpeed={40}
+                    backSpeed={50}
+                    
+                    loop >
+                    
+                </Typed>
                 </h2>
                 <p className='joseph__p'>Lorem Ipsn gravida nibh vel velit auctor aliquetnean sollicitudin, lorem quis bibendum auci elit consequat ipsutis sem nibh id elit dicat mollis</p>
 
@@ -86,7 +98,7 @@ const About = () => {
                 <div className="kart-image ">
                   <img src="https://res.cloudinary.com/ds7i6phph/image/upload/v1679170247/about-teacher_wg72nx.jpg" alt="" />
                   <div class="layer">
-                    <h3 className='joseph__h3' >Axhmed</h3>
+                    <h3 className='joseph__h3' >Joseph White</h3>
                   </div>
                 </div>
               </div>

@@ -44,3 +44,16 @@
   
 }
 
+.learning__lottie{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-left: 100px;
+    padding-bottom: 15px;
+    
+    
+}
+
+.learningbg{
+    background-color: #f7f7f7 !important;
+}

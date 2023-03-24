@@ -13,6 +13,8 @@ import {Link} from 'react-router-dom'
 import {GoLocation} from 'react-icons/go'
 import {BsTelephoneForward} from 'react-icons/bs'
 import {CgMail} from 'react-icons/cg'
+import Lottie from 'react-lottie-player'
+import LotiiMessage from '../../lottiee.json'
 
 
 import React, { useRef } from 'react';
@@ -91,9 +93,21 @@ const ContactUs = () => {
                         <div className="kart-info-adres d-flex">
                                      <span><GoLocation/> </span><span><p className='ps-3 pt-1 '>ADDRESS: 244 Lisgar St Toronto</p></span>
                         </div>
+                        <div className="kart-info-adres d-flex">
+                                     <span><GoLocation/> </span><span><p className='ps-3 pt-1 '>ADDRESS: 244 Lisgar St Toronto</p></span>
+                        </div>
                      </div>
                 </div>
                 <div className="col-12 col-md-12 col-lg-6 pt-2">
+                  <div className="lottieee pb-3 d-flex  ">
+                      <Lottie
+                        loop
+                        animationData={LotiiMessage}
+                        play
+                        style={{ width: 60, height: 60 }}
+                    />
+                  </div>
+              
                     <div className="pt-5 contactus__form">
                         <h3 className='pb-4'>Feel free to write us</h3>
                         <form action="" className="row g-lg-3 gy-3" ref={form} onSubmit={sendEmail}>
@@ -123,7 +137,7 @@ const ContactUs = () => {
 
 
     <div className="contact__map ">  
-         <iframe width="100%" height="514" id="gmap_canvas" src="https://maps.google.com/maps?q=yeni%20gunesli&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+         <iframe width="100%" height="514" id="gmap_canvas" src="https://maps.google.com/maps?q=yeni%20gunesli&t=&z=13&ie=UTF8&iwloc=&output=embed"  scrolling="no" ></iframe>
     </div>
 
  

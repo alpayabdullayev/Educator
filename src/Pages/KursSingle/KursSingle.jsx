@@ -24,6 +24,10 @@ import {AiFillInstagram} from 'react-icons/ai'
 import {FcBusinessContact} from 'react-icons/fc'
 import SearchButton from '../../Companents/SearchButton/SearchButton'
 
+import LotiiMessage from '../../lottiee.json'
+import Lottie from 'react-lottie-player'
+
+
 
 import {
     Accordion,
@@ -288,10 +292,17 @@ const KursSingle = () => {
                                 </div>
 
                                 <div className="Features__title pt-3">
-                                <h3 className='content__h3 pb-4 pt-3'>Contact Us</h3>
+                                <h3 className='content__h3  pt-3'>Contact Us</h3>
                                 <div className="col-md-3">
                                       <Link className='insta__logoo' to="/contact">
-                                       <span className='fs-1 ps-4'><FcBusinessContact/></span> 
+                                       <span className='fs-1 ps-4'>
+                                       <Lottie
+                        loop
+                        animationData={LotiiMessage}
+                        play
+                        style={{ width: 60, height: 60 }}
+                    />
+                                        </span> 
                                 </Link>
                                 </div>
                               

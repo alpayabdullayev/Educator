@@ -7,6 +7,8 @@
     padding: 1.2rem 1.3rem;
     background-color: #fafafa;
     font-weight: 700;
+    display: flex;
+    justify-content: space-between;
     
 }
 

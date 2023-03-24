@@ -5,6 +5,9 @@ import IMG2 from '../../img/Signup/h3-icon-2.png'
 import IMG3 from '../../img/Signup/h3-icon-3.png'
 import IMG4 from '../../img/Signup/h3-icon-4.png'
 
+import Lottie from 'react-lottie-player'
+import learning from '../../learning.json'
+
 const Signup = () => {
   return (
     <>
@@ -50,7 +53,14 @@ const Signup = () => {
                         
                     </div>
                     <div className="col-12 col-md-4">
-                    
+                        <span className='learning__lottie ps-2'>
+                        <Lottie className='learningbg'
+                        loop
+                        animationData={learning}
+                        play
+                        style={{ width: 300, height: 300, }}
+                    />
+                        </span>
                     </div>
                 </div>
 

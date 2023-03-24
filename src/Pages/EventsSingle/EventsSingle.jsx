@@ -22,7 +22,9 @@ import Button from '../../Companents/Button2/Button2'
 import EventImg from '../EventsSingle/event-1.jpg'
 import Footer from '../../Companents/Footer/Footer'
 
-
+//lotie
+import Lottie from 'react-lottie-player'
+import CalendarLottie from '../../calendar.json'
 
 
 const EventsSingle = () => {
@@ -50,13 +52,25 @@ const EventsSingle = () => {
                           <h5>Oct</h5>
                       </div>
                   </div>
-                  <div className="events-single__text ps-4">
+                  <div className="divklas d-flex justify-content-around">
+                      <div className="events-single__text ps-4">
                         <h2 className='events-single__h2'> English with Natives</h2>
                        <span><span className='events-single__span '><AiOutlineClockCircle/> <span>OCTOBER 10, 2024 @ 8:30 AM - OCTOBER 10, 2029 @ 3:00 PM</span></span></span> 
-
+                      
+                      </div>
+                      <div className="divloo">
+                         <span><Lottie
+                            loop
+                            animationData={CalendarLottie}
+                            play
+                            style={{ width: 100, height: 100 }}
+                          /></span> 
+                      </div>
                   </div>
+
             </div>
             <div className="right-event-side pt-2">
+
             <Button butonunIcindekiYazi=''  classAdi='Button ' ButtonunLinki='https://calendar.google.com/calendar/u/0/r'/>
             </div>
             
@@ -75,7 +89,7 @@ const EventsSingle = () => {
                   </div>
                   <div className="col-12 col-md-6 pt-3">
                     
-                  <iframe width="636" height="387" id="gmap_canvas" src="https://maps.google.com/maps?q=yeni%20gunesli&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                  <iframe width="636" height="387" id="gmap_canvas" src="https://maps.google.com/maps?q=yeni%20gunesli&t=&z=13&ie=UTF8&iwloc=&output=embed"  scrolling="no" fr></iframe>
                   </div>
                   <p className='pt-5'>Lorem ipsum oin gravida nibh vel veliauctor aliquenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. </p>
             </div>

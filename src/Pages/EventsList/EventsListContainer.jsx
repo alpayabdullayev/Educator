@@ -13,6 +13,9 @@ import WhiteNavbar from '../../Companents/WhiteNavbar/WhiteNavbar'
 import EventsListInfo from '../../EventsListInfo.json'
 import Footer from '../../Companents/Footer/Footer'
 
+//lotie
+import Lottie from 'react-lottie-player'
+import CalendarLottie from '../../calendar.json'
 const EventsListContainer = () => {
   return (
     <>
@@ -34,10 +37,20 @@ const EventsListContainer = () => {
     <div className='pt-5 oct'>
       <div className="container p-2 october">
         <div>
-          <h1 className='h1__oct'>
-            October 2024
+          <h1 className='h1__oct pt-4'>
+            October 2024                          
           </h1>
+          
         </div>
+        <div className="divloo">
+                         <span><Lottie
+                            loop
+                            animationData={CalendarLottie}
+                            play
+                            style={{ width: 100, height: 100 }}
+                          /></span> 
+                      </div>
+
       </div> 
     </div>
 

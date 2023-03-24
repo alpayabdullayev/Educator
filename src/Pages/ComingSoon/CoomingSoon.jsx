@@ -10,14 +10,22 @@ const CoomingSoon = () => {
 
     return (
         <>
-            <section className='page'>
-                <div className="page-content">
+          
+          <section  className="page full-height">
+            <div className="container ">
+                
+                <div className='page-content full-height flex-column  '>
                     <img src={Logo} alt="logo" className='page-logo' />
-                    <h1 className='page-text'>Educator coming soon!</h1>
-                    <CountdownTimer />
-                    <Form />
+                    <h1 className='page-text text-center'>Educator coming soon!</h1>
+                    <CountdownTimer  />
+                    <Form className='form__media '/>
+                    
                 </div>
-            </section>
+            </div>
+    </section>  
+                
+            
+
         </>
     )
 }

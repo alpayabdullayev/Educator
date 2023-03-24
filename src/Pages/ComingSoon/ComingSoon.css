@@ -19,9 +19,27 @@
 
 .page-text {
     font-family: Montserrat;
-    font-size: 75px;
+    font-size: 50px;
     font-weight: 600;
     letter-spacing: 0.02em;
     color: #ffffff;
     padding-bottom: 40px;
 }
+
+@media (max-width:768px){
+    .page-form{
+        
+        height: 10% !important;
+        
+    }
+}
+
+.form-email{
+    width: 250px !important;
+}
+
+.page-form{
+    padding-top:25px;
+    gap: 1rem !important;
+}
+

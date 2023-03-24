@@ -12,6 +12,8 @@ import {Link} from 'react-router-dom'
 import OurTeacherInfo from '../../OurTeacherInfo.json'
 import Footer from '../../Companents/Footer/Footer'
 
+import Typed from 'react-typed';
+
 const OurTeacher = () => {
   return (
     <>
@@ -37,14 +39,25 @@ const OurTeacher = () => {
                       <div className="kart-image">
                         <img src='https://educator.qodeinteractive.com/wp-content/uploads/2017/07/teachers-1.jpg' alt="" />
                             <div class="layer">
-                                <h3 className='joseph__h3' >Rəşaaaad</h3>
+                                <h3 className='joseph__h3' >Joseph White</h3>
                             </div>
                       </div>
                     </div>  
                 </div>
 
                 <div className="col-12 col-md-6 ps-3">
-                    <h1 className='teacher__h1 pt-2'>Joseph White</h1>
+                    <h1 className='teacher__h1 pt-2'>
+                      
+                      <Typed className='typing-text text-color'
+                strings={[
+                    'Joseph White',]}
+                    typeSpeed={40}
+                    backSpeed={50}
+                    
+                    loop >
+                    
+                </Typed>
+                      </h1>
                     <p className='teacher__top-p pt-4 '>Exerci deserunt ei qui, nec ceteros quaerendum et, appareat abhorreant no. Mel minim novum invenire no</p>
                     <p className='teacher__bottom-p pt-4'>Ad est fugit senserit contentiones. Sumo apeirian his at, ei nam mucius possim accusam. Duo minim dicit contentiones cu, dolor soluta ne nec, id nisl augue eos. Ad corpora partiendo sea, id ipsum omnium disputationi pri, eum eu ipsum placerat. Mel et gloriatur temporibus</p>
                     <img className='imza pt-4 ' src="https://educator.qodeinteractive.com/wp-content/uploads/2017/07/signature-1.png" alt="" />

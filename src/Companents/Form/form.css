@@ -1,14 +1,14 @@
 .form-email {
     width: 400px !important;
     border-radius: 100px;
-    padding: 9px;
-    border: 2px solid #ccc;
+    padding: 11px;
+    border: 2px solid #e1e1e1;
 }
 
 .form-email:focus {
     outline: none;
-    border-color: #0088ff;
-    box-shadow: 0px 0px 5px #0088ff;
+    border-color: #2d76b2;
+    box-shadow: 0px 0px 5px #2d76b2;
 }
 
 

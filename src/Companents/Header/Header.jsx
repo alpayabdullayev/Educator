@@ -19,11 +19,12 @@ const Header = () => {
     return (
         <header>
         <Swiper
+            speed={1500}
             loop={true}
             navigation={true}
             modules={[Navigation, Autoplay]}
             autoplay={{
-                delay: 2500,
+                delay: 4500,
             }}
             className="mySwiper slider swiper"
         >

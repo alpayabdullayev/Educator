@@ -42,6 +42,7 @@ const KursPage2Container = () => {
             <div className="row gy-4 row-cols-1 row-cols-md-3 g-4">
                 {CoursesList2.map((birMelumat) => (
                   <KursPages2
+                    
                     Coursesbasligi={birMelumat.kurs_adi}
                     Coursessahib={birMelumat.kurs_sahibi}
                     CoursesImgsi={birMelumat.ImgUrl}

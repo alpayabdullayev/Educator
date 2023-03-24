@@ -35,19 +35,19 @@ const CountdownTimer = () => {
   return (
     <div className="countdown-timer-container">
       <div className="countdown-timer row">
-        <div className="countdown-timer-item col-12 col-lg-3">
+        <div className="countdown-timer-item col-6 col-md-3">
           <div className="countdown-timer-item-value">{days < 10 ? '0' + days : days}</div>
           <div className="countdown-timer-item-label">Days</div>
         </div>
-        <div className="countdown-timer-item col-12 col-lg-3">
+        <div className="countdown-timer-item col-6 col-md-3">
           <div className="countdown-timer-item-value">{hours < 10 ? '0' + hours : hours}</div>
           <div className="countdown-timer-item-label">Hours</div>
         </div>
-        <div className="countdown-timer-item col-12 col-lg-3">
+        <div className="countdown-timer-item col-6 col-md-3">
           <div className="countdown-timer-item-value">{minutes < 10 ? '0' + minutes : minutes}</div>
           <div className="countdown-timer-item-label">Minutes</div>
         </div>
-        <div className="countdown-timer-item col-12 col-lg-3">
+        <div className="countdown-timer-item col-6 col-md-3">
           <div className="countdown-timer-item-value">{seconds < 10 ? '0' + seconds : seconds}</div>
           <div className="countdown-timer-item-label">Seconds</div>
         </div>

@@ -20,6 +20,9 @@ import SearchButton from '../../Companents/SearchButton/SearchButton'
 import Footer from '../../Companents/Footer/Footer'
 import {AiFillInstagram} from 'react-icons/ai'
 import {FcBusinessContact} from 'react-icons/fc'
+import Lottie from 'react-lottie-player'
+import LotiiMessage from '../../lottiee.json'
+import insta from '../../insta.json'
 
 const Blog = () => {
   return (
@@ -337,7 +340,15 @@ const Blog = () => {
                                 <h3 className='content__h3 pb-4 pt-3'>Instagram</h3>
                                 <div className="col-md-3">
                                       <a className='insta__logo' href="https://www.instagram.com/alphay09/">
-                                      <span className='fs-1 ps-4'><AiFillInstagram/></span>  
+                                      <span className=' '>
+                                        
+                                      <Lottie 
+                        loop
+                        animationData={insta}
+                        play
+                        style={{ width: 75, height: 75 }}
+                    />
+                                        </span>  
                                 </a>
                                 </div>
                               
@@ -345,8 +356,19 @@ const Blog = () => {
                             <div className="Features__title pt-3">
                                 <h3 className='content__h3 pb-4 pt-3'>Contact Us</h3>
                                 <div className="col-md-3">
-                                      <Link className='insta__logo' to="/contact">
-                                       <span className='fs-1 ps-4'><FcBusinessContact/></span> 
+                                      <Link className='insta__logo ps-3' to="/contact">
+                                       <span className='fs-1 ps-5'>
+                                        
+                                       <Lottie
+                        loop
+                        animationData={LotiiMessage}
+                        play
+                        style={{ width: 60, height: 60 }}
+                    />
+                                        </span> 
+                                       <span>
+                                        
+                                       </span>
                                 </Link>
                                 </div>
                               
@@ -354,6 +376,7 @@ const Blog = () => {
                             <div className="Features__title pt-3">
                                 <h3 className='content__h3 pb-4 pt-3'>Search</h3>
                                 <span className='search__blog'><SearchButton/></span>
+                                
                               
                             </div>
 

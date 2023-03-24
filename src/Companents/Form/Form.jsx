@@ -37,17 +37,16 @@ const Forum = () => {
     return (
         <div>
             {isSubscribed ? (
-                <p className='page-note' data-aos='fade-up'>Thank you for subscribing! You will receive notifications via email.</p>
+                <p className='page-note text-center' data-aos='fade-up'>Thank you for subscribing! You will receive notifications via email.</p>
             ) : (
                 <form className="page-form" ref={form} onChange={sendEmail} onSubmit={handleSubscribe}>
                     <label>
                         <input type="email" className='form-email' placeholder='Email' name='sexsin_emaili' value={email} onChange={handleEmailChange} />
                     </label>
                     <motion.button
-                        whileHover={{ scale: 1.1 }}
-                        whileTap={{ scale: 0.9 }}
+                     
                         onClick={() => (modalOpen ? close() : open())}
-                        className="button-19" type='submit'>
+                        className="Button" type='submit'>
                         Notify Me
                     </motion.button>
                 </form>

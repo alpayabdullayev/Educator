@@ -7,6 +7,9 @@ import { AiOutlineInstagram } from 'react-icons/ai'
 import { AiFillTwitterSquare } from 'react-icons/ai'
 import { AiFillFacebook } from 'react-icons/ai'
 
+//
+import {Link} from 'react-router-dom'
+
 const Navbar = () => {
 
     return (
@@ -45,10 +48,10 @@ const Navbar = () => {
                         </select>
                     </li>
                     <li className="right-side-items">
-                        <a href=".">Login</a>
+                        <Link to="/userdashboard">Login</Link>
                     </li>
                     <li className="right-side-items">
-                        <a href=".">Register</a>
+                        <Link to="/userdashboard">Register</Link>
                     </li>
                 </ul>
             </div>
