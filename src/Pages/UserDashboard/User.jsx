@@ -75,13 +75,13 @@ const User = () => {
 
                       <div class="form-check mb-2  pt-2 ">
                         <input class="form-check-input" type="checkbox" id="autoSizingCheck" />
-                        <label class="form-check-label" for="autoSizingCheck">
+                        <label class="remember" for="autoSizingCheck">
                           Remember me
                         </label>
                       </div>
 
                       <div className='forgot__pass pt-2 '>
-                        <a className='text-primary' href="">Lost your password?</a>
+                        <a className='text-2d' href="">Lost your password?</a>
                       </div>
 
 
